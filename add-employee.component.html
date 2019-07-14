@@ -1,0 +1,13 @@
+<p>add-employee works!</p>
+<form>
+        
+    <table class="table">
+      <tbody>
+        <tr> <td>ID</td><td> <input type="number"  #id></td></tr>
+        <tr> <td>Name</td><td> <input type="text"  #name></td></tr>
+        <tr> <td>Salary</td><td> <input type="number"  #salary></td></tr>
+        <tr> <td>Department</td><td> <input type="text" #department></td></tr>
+      </tbody>
+    </table>
+        <tr> <button (click)= add(id.value,name.value,salary.value,department.value) > Add </button></tr>
+      </form>
